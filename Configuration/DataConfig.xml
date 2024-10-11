@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Environment>
+    <!-- General -->
+    <PlatformNameOfTest>web</PlatformNameOfTest>
+
+    <!-- Web -->
+    <BrowserType>chrome</BrowserType>
+    <URL>https://www.hubspot.com/</URL>
+
+    <!-- Mobile -->
+    <reportDirectory>E:\Automation\Project__Selenium__Appium__RestAPI__Electron_Desktop\AppiumStudioReports</reportDirectory>
+    <reportFormat>xml</reportFormat>
+    <testName>APIDemos</testName>
+    <UDID>1A221FDF6003DK</UDID>
+    <APP_PACKAGE>com.example.android.apis</APP_PACKAGE>
+    <APP_ACTIVITY>.ApiDemos</APP_ACTIVITY>
+    <LocalHost>http://127.0.0.1:4723/wd/hub</LocalHost>
+
+    <!-- API -->
+    <UrlAPI>http://localhost:9000/</UrlAPI> <!--  java -jar students.jar minusAnd-server.port=9000  -->
+    <Student_1>DakotaReed</Student_1>
+    <Student_2>KukuLolo</Student_2>
+    <Programme_QA>QA Automation</Programme_QA>
+    <Programme_FS>Full Stack</Programme_FS>
+    <Course_1>Java Course</Course_1>
+    <Course_2>CSharp Course</Course_2>
+    <Course_3>Python Course</Course_3>
+
+    <!-- Electron -->
+    <ElectronDriver>./Drivers/electrondriver.exe</ElectronDriver>
+    <ElectronAppPath>C://Users/Dakota/AppData/Local/Programs/todolist/Todolist.exe</ElectronAppPath>
+    <TaskName_1>Learn Java</TaskName_1>
+    <TaskName_2>Learn SQL</TaskName_2>
+    <TaskName_3>Learn JMeter</TaskName_3>
+    <TaskStatusALL>All</TaskStatusALL>
+    <TaskStatusTODO>Todo</TaskStatusTODO>
+    <TaskStatusDONE>Completed</TaskStatusDONE>
+
+    <!-- Expected Results - HubSpot-->
+    <x_AxisOfElementSearchMAX>987</x_AxisOfElementSearchMAX>
+    <y_AxisOfElementSearch>14</y_AxisOfElementSearch>
+    <x_AxisOfElementSearch1200_700>812</x_AxisOfElementSearch1200_700>
+    <ResultsListSearch>10</ResultsListSearch>
+    <LastPlatformName>Free Tools</LastPlatformName>
+    <AreaTextPlatform>Customer service software that helps you conduct seamless onboarding, enable flexible customer support, and deepen customer relationships at scale.</AreaTextPlatform>
+
+    <!-- Path of Directories -->
+    <ImageRepo>E:\Automation\Project__Selenium__Appium__RestAPI__Electron_Desktop\ImageRepository\</ImageRepo>
+    <DDTFile_TextSearch>./DDTFiles/textForSearch.csv</DDTFile_TextSearch>
+    <DDTFile_Resolutions>./DDTFiles/resolutionsOfDisplay.csv</DDTFile_Resolutions>
+    <DDTFile_NumTextOfButtons>./DDTFiles/numTextOfButtons.csv</DDTFile_NumTextOfButtons>
+    <DDTFile_NamesOfStudents>./DDTFiles/namesOfStudents.csv</DDTFile_NamesOfStudents>
+    <DDTFile_IndexesOfTasks>./DDTFiles/indexesOfTasks.csv</DDTFile_IndexesOfTasks>
+</Environment>

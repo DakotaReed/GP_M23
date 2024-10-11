@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<test_report>
+<info>
+<test_info>
+<test_status>OK</test_status>
+<time_zone>Israel Standard Time</time_zone>
+<run_started>Sat, 11 Feb 2023 17:49:50</run_started>
+<total_time>00:01:49.233</total_time>
+<project/>
+<user>Dakota</user>
+<machine_name>DESKTOP-3BGB7B3</machine_name>
+</test_info>
+<device_info>
+<device_name>Pixel 6</device_name>
+<manufacture>Google</manufacture>
+<model>Pixel 6</model>
+<os>Android</os>
+<serial_number>1A221FDF6003DK</serial_number>
+<version>13.0</version>
+<versionMajor>13.x</versionMajor>
+<screen_size>1080x2400</screen_size>
+</device_info>
+</info>
+<reports>
+<report>
+<line>Start steps group 'New Session [Android]'</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>0.PNG</imageFile>
+<text>{appPackage=com.example.android.apis, device.majorVersion=13, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, applicationClearData=false, reservationDuration=240, reportFormat=xml, fullReset=false, deviceUDID=1A221FDF6003DK, install.only.for.update=false, desired={appActivity=.ApiDemos, appPackage=com.example.android.apis, reportDirectory=E:\Automation\Project__Selenium__Appium__RestAPI__Electron_Desktop\AppiumStudioReports, reportFormat=xml, platformName=Android, udid=1A221FDF6003DK, appWaitDuration=10000.0, testName=APIDemos}, device.serialNumber=1A221FDF6003DK, locationServicesAuthorized=false, device.version=13.0, reportDirectory=E:\Automation\Project__Selenium__Appium__RestAPI__Electron_Desktop\AppiumStudioReports, autoWebview=false, platformName=Android, udid=1A221FDF6003DK, testName=APIDemos, device.screenSize=1080x2400, useKeystore=false, test.type=Mobile, commandTimeouts=120000, device.manufacture=Google, instrumentApp=false, appiumVersion=1.8.0, autoDismissAlerts=false, reportUrl=E:\Automation\Project__Selenium__Appium__RestAPI__Electron_Desktop\AppiumStudioReports\test1, appWaitDuration=10000.0, newSessionWaitTimeout=600, keystorePath=~/.android/debug.keystore, appActivity=.ApiDemos, installOnlyForUpdate=false, waitForDeviceTimeout=120000, device.model=Pixel 6, device.name=Pixel 6, autoGrantPermissions=false, appBuildVersion=, appReleaseVersion=, takeScreenshots=true, projectName=, autoAcceptAlerts=false}</text>
+<line>Init Actual Capabilities</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>1.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Init Context [NATIVE_APP]</line>
+<status>true</status>
+</report>
+<report>
+<text>PHONE</text>
+<line>Get device property: device.category</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>2.PNG</imageFile>
+<line>Get context list</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>3.PNG</imageFile>
+<line>Set property android.native.nonInstrumented to: true</line>
+<status>true</status>
+</report>
+<report>
+<text>Writing device log to C:\Users\Dakota\AppData\Local\Temp\AppiumStudio\deviceLogs_16761305919193086898785558739774.log</text>
+<line>Start writing device log for Pixel 6</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>4.PNG</imageFile>
+<line>Launch native activity / URL com.example.android.apis/.ApiDemos</line>
+<status>true</status>
+</report>
+<report>
+<line>Device Action: wake</line>
+<status>true</status>
+</report>
+<report>
+<line>Stop steps group</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>5.PNG</imageFile>
+<line>Set Timeout [implicit,5000.0]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>6.PNG</imageFile>
+<line>Launch App</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>7.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>8.PNG</imageFile>
+<text>{ELEMENT=111}</text>
+<line>Find Element [xpath,//*[@text='Views']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>9.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Views'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>10.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>11.PNG</imageFile>
+<text>{ELEMENT=112}</text>
+<line>Find Element [xpath,//*[@text='Views']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>12.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Views'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>13.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>14.PNG</imageFile>
+<text>{ELEMENT=113}</text>
+<line>Find Element [xpath,//*[@text='Views']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>15.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=113}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>16.PNG</imageFile>
+<text>{width=1080, height=2400}</text>
+<line>Get Window Size [current]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>17.PNG</imageFile>
+<line>Perform Touch Action [[{action=press, options={x=540.0, y=1200.0}}, {action=wait, options={ms=200.0}}, {action=moveTo, options={x=540.0, y=10.0}}, {action=release, options={}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>18.PNG</imageFile>
+<text>{width=1080, height=2400}</text>
+<line>Get Window Size [current]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>19.PNG</imageFile>
+<line>Perform Touch Action [[{action=press, options={x=540.0, y=1200.0}}, {action=wait, options={ms=200.0}}, {action=moveTo, options={x=540.0, y=10.0}}, {action=release, options={}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>20.PNG</imageFile>
+<text>{width=1080, height=2400}</text>
+<line>Get Window Size [current]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>21.PNG</imageFile>
+<line>Perform Touch Action [[{action=press, options={x=540.0, y=1200.0}}, {action=wait, options={ms=200.0}}, {action=moveTo, options={x=540.0, y=10.0}}, {action=release, options={}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>22.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>23.PNG</imageFile>
+<text>{ELEMENT=114}</text>
+<line>Find Element [xpath,//*[@text='WebView']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>24.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='WebView'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>25.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>26.PNG</imageFile>
+<text>{ELEMENT=115}</text>
+<line>Find Element [xpath,//*[@text='WebView']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>27.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='WebView'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>28.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>29.PNG</imageFile>
+<text>{ELEMENT=116}</text>
+<line>Find Element [xpath,//*[@text='WebView']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>30.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=116}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>31.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>32.PNG</imageFile>
+<text>{ELEMENT=117}</text>
+<line>Find Element [xpath,//*[@text='Hello World! - 1']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>33.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Hello World! - 1'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>34.PNG</imageFile>
+<line>Launch App</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>35.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>36.PNG</imageFile>
+<text>{ELEMENT=118}</text>
+<line>Find Element [xpath,//*[@text='Animation']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>37.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Animation'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>38.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>39.PNG</imageFile>
+<text>{ELEMENT=119}</text>
+<line>Find Element [xpath,//*[@text='Animation']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>40.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Animation'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>41.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>42.PNG</imageFile>
+<text>{ELEMENT=120}</text>
+<line>Find Element [xpath,//*[@text='Animation']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>43.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=120}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>44.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>45.PNG</imageFile>
+<text>{ELEMENT=121}</text>
+<line>Find Element [xpath,//*[@text='Default Layout Animations']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>46.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Default Layout Animations'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>47.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>48.PNG</imageFile>
+<text>{ELEMENT=122}</text>
+<line>Find Element [xpath,//*[@text='Default Layout Animations']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>49.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Default Layout Animations'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>50.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>51.PNG</imageFile>
+<text>{ELEMENT=123}</text>
+<line>Find Element [xpath,//*[@text='Default Layout Animations']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>52.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=123}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>53.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>54.PNG</imageFile>
+<text>{ELEMENT=124}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>55.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@id='addNewButton'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>56.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>57.PNG</imageFile>
+<text>{ELEMENT=125}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>58.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@id='addNewButton'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>59.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>60.PNG</imageFile>
+<text>{ELEMENT=126}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>61.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=126}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>62.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>63.PNG</imageFile>
+<text>[{ELEMENT=127}, {ELEMENT=128}]</text>
+<line>Find Elements [xpath,//*[@class='android.widget.Button']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>64.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>65.PNG</imageFile>
+<text>{ELEMENT=129}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>66.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@id='addNewButton'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>67.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>68.PNG</imageFile>
+<text>{ELEMENT=130}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>69.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@id='addNewButton'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>70.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>71.PNG</imageFile>
+<text>{ELEMENT=131}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>72.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=131}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>73.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>74.PNG</imageFile>
+<text>[{ELEMENT=132}, {ELEMENT=133}, {ELEMENT=134}]</text>
+<line>Find Elements [xpath,//*[@class='android.widget.Button']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>75.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>76.PNG</imageFile>
+<text>{ELEMENT=135}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>77.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@id='addNewButton'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>78.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>79.PNG</imageFile>
+<text>{ELEMENT=136}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>80.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@id='addNewButton'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>81.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>82.PNG</imageFile>
+<text>{ELEMENT=137}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>83.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=137}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>84.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>85.PNG</imageFile>
+<text>[{ELEMENT=138}, {ELEMENT=139}, {ELEMENT=140}, {ELEMENT=141}]</text>
+<line>Find Elements [xpath,//*[@class='android.widget.Button']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>86.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>87.PNG</imageFile>
+<text>{ELEMENT=142}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>88.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@id='addNewButton'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>89.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>90.PNG</imageFile>
+<text>{ELEMENT=143}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>91.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@id='addNewButton'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>92.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>93.PNG</imageFile>
+<text>{ELEMENT=144}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>94.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=144}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>95.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>96.PNG</imageFile>
+<text>[{ELEMENT=145}, {ELEMENT=146}, {ELEMENT=147}, {ELEMENT=148}, {ELEMENT=149}]</text>
+<line>Find Elements [xpath,//*[@class='android.widget.Button']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>97.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>98.PNG</imageFile>
+<text>{ELEMENT=150}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>99.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@id='addNewButton'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>100.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>101.PNG</imageFile>
+<text>{ELEMENT=151}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>102.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@id='addNewButton'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>103.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>104.PNG</imageFile>
+<text>{ELEMENT=152}</text>
+<line>Find Element [xpath,//*[@id='addNewButton']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>105.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=152}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>106.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>107.PNG</imageFile>
+<text>[{ELEMENT=153}, {ELEMENT=154}, {ELEMENT=155}, {ELEMENT=156}, {ELEMENT=157}, {ELEMENT=158}]</text>
+<line>Find Elements [xpath,//*[@class='android.widget.Button']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>108.PNG</imageFile>
+<line>Launch App</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>109.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>110.PNG</imageFile>
+<text>{ELEMENT=159}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>111.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Content'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>112.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>113.PNG</imageFile>
+<text>{ELEMENT=160}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>114.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Content'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>115.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>116.PNG</imageFile>
+<text>{ELEMENT=161}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>117.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=161}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>118.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>119.PNG</imageFile>
+<text>{ELEMENT=162}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>120.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Provider'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>121.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>122.PNG</imageFile>
+<text>{ELEMENT=163}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>123.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Provider'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>124.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>125.PNG</imageFile>
+<text>{ELEMENT=164}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>126.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=164}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>127.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>128.PNG</imageFile>
+<text>{ELEMENT=165}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>129.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Pick Contact'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>130.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>131.PNG</imageFile>
+<text>{ELEMENT=166}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>132.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Pick Contact'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>133.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>134.PNG</imageFile>
+<text>{ELEMENT=167}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>135.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=167}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>136.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>137.PNG</imageFile>
+<text>[{ELEMENT=168}, {ELEMENT=169}, {ELEMENT=170}, {ELEMENT=171}]</text>
+<line>Find Elements [xpath,//*[@class='android.widget.Button']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>138.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@class='android.widget.Button'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>139.PNG</imageFile>
+<text>Pick a Contact</text>
+<line>Get Text [(//*[@class='android.widget.Button'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>140.PNG</imageFile>
+<line>Launch App</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>141.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>142.PNG</imageFile>
+<text>{ELEMENT=172}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>143.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Content'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>144.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>145.PNG</imageFile>
+<text>{ELEMENT=173}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>146.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Content'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>147.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>148.PNG</imageFile>
+<text>{ELEMENT=174}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>149.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=174}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>150.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>151.PNG</imageFile>
+<text>{ELEMENT=175}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>152.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Provider'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>153.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>154.PNG</imageFile>
+<text>{ELEMENT=176}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>155.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Provider'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>156.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>157.PNG</imageFile>
+<text>{ELEMENT=177}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>158.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=177}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>159.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>160.PNG</imageFile>
+<text>{ELEMENT=178}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>161.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Pick Contact'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>162.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>163.PNG</imageFile>
+<text>{ELEMENT=179}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>164.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Pick Contact'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>165.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>166.PNG</imageFile>
+<text>{ELEMENT=180}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>167.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=180}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>168.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>169.PNG</imageFile>
+<text>[{ELEMENT=181}, {ELEMENT=182}, {ELEMENT=183}, {ELEMENT=184}]</text>
+<line>Find Elements [xpath,//*[@class='android.widget.Button']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>170.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@class='android.widget.Button'])[2]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>171.PNG</imageFile>
+<text>Pick a Person</text>
+<line>Get Text [(//*[@class='android.widget.Button'])[2]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>172.PNG</imageFile>
+<line>Launch App</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>173.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>174.PNG</imageFile>
+<text>{ELEMENT=185}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>175.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Content'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>176.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>177.PNG</imageFile>
+<text>{ELEMENT=186}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>178.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Content'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>179.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>180.PNG</imageFile>
+<text>{ELEMENT=187}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>181.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=187}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>182.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>183.PNG</imageFile>
+<text>{ELEMENT=188}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>184.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Provider'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>185.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>186.PNG</imageFile>
+<text>{ELEMENT=189}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>187.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Provider'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>188.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>189.PNG</imageFile>
+<text>{ELEMENT=190}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>190.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=190}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>191.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>192.PNG</imageFile>
+<text>{ELEMENT=191}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>193.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Pick Contact'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>194.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>195.PNG</imageFile>
+<text>{ELEMENT=192}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>196.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Pick Contact'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>197.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>198.PNG</imageFile>
+<text>{ELEMENT=193}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>199.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=193}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>200.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>201.PNG</imageFile>
+<text>[{ELEMENT=194}, {ELEMENT=195}, {ELEMENT=196}, {ELEMENT=197}]</text>
+<line>Find Elements [xpath,//*[@class='android.widget.Button']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>202.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@class='android.widget.Button'])[3]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>203.PNG</imageFile>
+<text>Pick a Phone</text>
+<line>Get Text [(//*[@class='android.widget.Button'])[3]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>204.PNG</imageFile>
+<line>Launch App</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>205.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>206.PNG</imageFile>
+<text>{ELEMENT=198}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>207.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Content'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>208.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>209.PNG</imageFile>
+<text>{ELEMENT=199}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>210.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Content'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>211.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>212.PNG</imageFile>
+<text>{ELEMENT=200}</text>
+<line>Find Element [xpath,//*[@text='Content']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>213.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=200}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>214.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>215.PNG</imageFile>
+<text>{ELEMENT=201}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>216.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Provider'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>217.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>218.PNG</imageFile>
+<text>{ELEMENT=202}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>219.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Provider'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>220.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>221.PNG</imageFile>
+<text>{ELEMENT=203}</text>
+<line>Find Element [xpath,//*[@text='Provider']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>222.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=203}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>223.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>224.PNG</imageFile>
+<text>{ELEMENT=204}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>225.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@text='Pick Contact'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>226.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>227.PNG</imageFile>
+<text>{ELEMENT=205}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>228.PNG</imageFile>
+<text>true</text>
+<line>Is Enabled [(//*[@text='Pick Contact'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>229.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>230.PNG</imageFile>
+<text>{ELEMENT=206}</text>
+<line>Find Element [xpath,//*[@text='Pick Contact']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>231.PNG</imageFile>
+<line>Perform Touch Action [[{action=tap, options={element=206}}]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>232.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Get Current Context Handle</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>233.PNG</imageFile>
+<text>[{ELEMENT=207}, {ELEMENT=208}, {ELEMENT=209}, {ELEMENT=210}]</text>
+<line>Find Elements [xpath,//*[@class='android.widget.Button']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>234.PNG</imageFile>
+<text>true</text>
+<line>Is Displayed [(//*[@class='android.widget.Button'])[4]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>235.PNG</imageFile>
+<text>Pick an Address</text>
+<line>Get Text [(//*[@class='android.widget.Button'])[4]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>236.PNG</imageFile>
+<line>Launch App</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>237.PNG</imageFile>
+<text>portrait</text>
+<line>Get Screen Orientation</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>238.PNG</imageFile>
+<line>Set Screen Orientation [LANDSCAPE]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>239.PNG</imageFile>
+<line>Set Screen Orientation [PORTRAIT]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>240.PNG</imageFile>
+<text>portrait</text>
+<line>Get Screen Orientation</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>241.PNG</imageFile>
+<line>Launch App</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>242.PNG</imageFile>
+<text>false</text>
+<line>Is Locked</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>243.PNG</imageFile>
+<line>Lock [0.0]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>244.PNG</imageFile>
+<text>true</text>
+<line>Is Locked</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>245.PNG</imageFile>
+<line>Unlock</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>246.PNG</imageFile>
+<text>false</text>
+<line>Is Locked</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>247.PNG</imageFile>
+<line>Quit</line>
+<status>true</status>
+</report>
+</reports>
+</test_report>
